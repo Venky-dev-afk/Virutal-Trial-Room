@@ -1,0 +1,85 @@
+.button-59 {
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  color: #fff; /* Ensure the text is pure white */
+  cursor: pointer;
+  display: inline-flex;
+  fill: #fff; /* Ensures SVG or icons also appear white */
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 58px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 170px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease; /* Smooth transition */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: absolute;
+  right: 50px;
+  -webkit-font-smoothing: antialiased; /* Improves text rendering */
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.1); /* Optional: enhances text clarity */
+  font-family: 'Poppins',sans-serif;
+}
+
+.button-59:hover {
+  background-color: rgb(255, 255, 255); /* Fill color on hover */
+  color: #000000; /* Text stays white for contrast */
+  border-color: rgb(255, 255, 255); /* Ensure border matches the fill */
+}
+
+.button-59:focus {
+  color: #fff; /* Text remains white when focused */
+}
+
+.button-59:active {
+  background-color: #25d050; /* Darker shade for active state */
+  color: #fff;
+  border-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+
+.button-01 {
+  position: absolute; /* Positions the button relative to the nearest positioned ancestor */
+  top: 0;
+  left: 0;
+  margin-left:40px; 
+  margin-top:20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-01:hover {
+  background-color: rgb(255, 255, 255); /* Fill color on hover */
+  color: #000000; /* Text stays white for contrast */
+  border-color: rgb(255, 255, 255); /* Ensure border matches the fill */
+}
+
+.button-01:focus {
+  color: #000000; /* Text remains white when focused */
+}
+
+.button-01:active {
+  background-color: #25d050; /* Darker shade for active state */
+  color: #fff;
+  border-color: #ffffff;
+}
+
